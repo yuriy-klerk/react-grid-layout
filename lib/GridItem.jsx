@@ -362,6 +362,7 @@ export default class GridItem extends React.Component<Props, State> {
         onResizeStart={this.onResizeStart}
         onResize={this.onResize}
         transformScale={transformScale}
+        lockAspectRatio={true}
       >
         {child}
       </Resizable>
